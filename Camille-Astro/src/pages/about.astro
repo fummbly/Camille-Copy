@@ -3,6 +3,180 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="About">
-    <h2>About Me</h2>
-    <p>Testing github</p>
+    <main>
+        <section id="intro">
+            <p>
+                I'm an Independent Interactive Designer with years of experience
+                in building art direction and appealing web experiences.
+            </p>
+            <p>
+                I specialize in visual desing with a strong focus on
+                interaction. I also love to illustrate elements to make eahc
+                experience unique.
+            </p>
+        </section>
+
+        <section id="experience">
+            <h2>Working Experience</h2>
+            <ul>
+                <li>
+                    <h3>Freelance Designer</h3>
+                    <h3>& Art Director</h3>
+                    <p class="subtext">2022-Present</p>
+                </li>
+                <li>
+                    <h3>Senior Designer</h3>
+                    <h3>AKQA Amersterdam</h3>
+                    <p class="subtext">2018-2022</p>
+                </li>
+                <li>
+                    <h3>Designer</h3>
+                    <h3>DDB Tribal Amsterdam</h3>
+                    <p class="subtext">2016-2018</p>
+                </li>
+                <li>
+                    <h3>Designer</h3>
+                    <h3>Fabrique Amsterdam</h3>
+                    <p class="subtext">2015-2016</p>
+                </li>
+                <li>
+                    <h3>Intern</h3>
+                    <h3>Media Monks</h3>
+                    <p class="subtext">2014-2015</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="awards">
+            <h2>Awards & Recognition</h2>
+            <ul>
+                <li>
+                    <h3>Silver Webby Award</h3>
+                    <p class="subtext">Samsung Galaxy Watch 4</p>
+                    <p class="subtext">Wearable Design</p>
+                    <p class="subtext">2022</p>
+                </li>
+                <li>
+                    <h3>Silver Webby Award</h3>
+                    <p class="subtext">Samsung Galaxy Watch 4</p>
+                    <p class="subtext">Visual Aesthetic</p>
+                    <p class="subtext">& Connected Products</p>
+                    <p class="subtext">2022</p>
+                </li>
+                <li>
+                    <h3>Rookie Of The Year</h3>
+                    <p class="subtext">AKQA Amsterdam</p>
+                    <p class="subtext">2018</p>
+                </li>
+                <li>
+                    <h3>FWA Of The Day</h3>
+                    <p class="subtext">Adidas Ultraboost All Terrain</p>
+                    <p class="subtext">October 9, 2017</p>
+                </li>
+                <li>
+                    <h3>Silver European Design Award</h3>
+                    <p class="subtext">Great Fire Of London</p>
+                    <p class="subtext">2016</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="brands">
+            <h2>Brands I Worked With</h2>
+            <ul>
+                <li><p class="subtext">Samsung</p></li>
+                <li><p class="subtext">Google</p></li>
+                <li><p class="subtext">Nike</p></li>
+                <li><p class="subtext">Sennheiser</p></li>
+                <li><p class="subtext">Gucci</p></li>
+                <li><p class="subtext">Swarovski</p></li>
+                <li><p class="subtext">Adidas</p></li>
+                <li><p class="subtext">Polestar</p></li>
+                <li><p class="subtext">Viktor&Rolf</p></li>
+                <li><p class="subtext">Museum Of London</p></li>
+                <li><p class="subtext">TikTok</p></li>
+                <li><p class="subtext">GoreTex</p></li>
+                <li><p class="subtext">Toyota</p></li>
+                <li><p class="subtext">Van Gogh Museum</p></li>
+                <li><p class="subtext">McDonald's</p></li>
+                <li><p class="subtext">Colgate</p></li>
+            </ul>
+        </section>
+
+        <section id="socials">
+            <h2>Get In Touch</h2>
+            <ul>
+                <li><p class="subtext"><a>Email</a></p></li>
+                <li><p class="subtext"><a>Twitter</a></p></li>
+                <li><p class="subtext"><a>LinkedIn</a></p></li>
+                <li><p class="subtext"><a>Instagram</a></p></li>
+                <li><p class="subtext"><a>Behance</a></p></li>
+            </ul>
+        </section>
+
+        <section id="credits">
+            <h2>Credits</h2>
+            <ul>
+                <li>
+                    <h3>Aristide Benoist</h3>
+                    <p class="subtext">Motion & Development</p>
+                </li>
+                <li>
+                    <h3>Klim Type Foundry</h3>
+                    <p class="subtext">Sohne Buch</p>
+                </li>
+            </ul>
+        </section>
+    </main>
 </Layout>
+
+<style>
+    main {
+        margin: 1rem 20rem;
+        max-width: 50%;
+    }
+
+    section {
+        margin: 30rem 0;
+    }
+
+    h2 {
+        font-size: 5rem;
+        font-weight: 400;
+    }
+
+    h3 {
+        font-size: 4rem;
+        font-weight: 400;
+        margin: 0;
+        padding: 0;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        padding-left: 8rem;
+    }
+
+    li {
+        margin: 5rem 0;
+    }
+
+    #brands li,
+    #socials li {
+        margin: 0;
+    }
+
+    #intro {
+        font-size: 5rem;
+        font-weight: 400;
+    }
+
+    .subtext {
+        font-size: 2rem;
+        font-weight: 500;
+        color: #6e6e6e;
+        margin: 0;
+        padding: 0;
+    }
+</style>
