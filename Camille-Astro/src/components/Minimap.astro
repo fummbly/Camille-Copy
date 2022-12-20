@@ -1,0 +1,29 @@
+---
+---
+
+<div id="minimap">
+    <div class="box"></div>
+    <div>
+        <slot />
+    </div>
+</div>
+
+<style>
+    #minimap {
+        width: 40vw;
+        height: 70vh;
+        scale: 10%;
+        position: fixed;
+        top: 0;
+        right: 20px;
+        cursor: pointer;
+    }
+
+    .box {
+        width: 50vw;
+        height: 50vh;
+        border: 1px solid rgb(187, 21, 21);
+        position: relative;
+        top: 0;
+    }
+</style>
